@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #FAF7F2;
+    color: #1F1A1C;
+  }
+
+  body {
+    min-height: 100vh;
+    background-color: #FAF7F2;
+    color: #1F1A1C;
+    font-feature-settings: "kern" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Foco visible de alto contraste para navegación por teclado (POUR: Operable) */
+  :focus-visible {
+    outline: 3px solid #8C3B50;
+    outline-offset: 2px;
+  }
+}
+
+/* Accesibilidad Sensorial: Respeto estricto a prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
