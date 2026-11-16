@@ -225,7 +225,7 @@ export default function HomePage() {
               id="presentacion-marca-heading"
               className="mt-2 font-serif text-2xl font-bold text-charcoal sm:text-4xl"
             >
-              ¿Qué es El club de las flores {"<3"} y cómo funciona?
+              ¿Qué es El club de las floresy cómo funciona?
             </h2>
             <p className="mt-4 text-base leading-relaxed text-charcoal-muted">
               Somos una plataforma dedicada al diseño y entrega periódica de

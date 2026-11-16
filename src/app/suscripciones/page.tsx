@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import { SubscriptionsHubClient } from "@/components/subscriptions/SubscriptionsHubClient";
 
 export const metadata = {
-  title: "Suscripciones | El club de las flores <3",
+  title: "Suscripciones | El club de las flores",
   description:
     "Configura tu plan floral, elige frecuencia, destinatario y turno de entrega, simula tu pago y gestiona tus suscripciones.",
 };

@@ -1,6 +1,6 @@
-# Evidencias Académicas de Interacción Humano-Máquina (IHM) — El club de las flores <3
+# Evidencias Académicas de Interacción Humano-Máquina (IHM) — El club de las flores
 
-Este documento sistematiza la implementación real, funcional y verificable de los **diez principios de Interacción Humano-Máquina (IHM)** y accesibilidad web (referencia WCAG 2.2 nivel AA) dentro de la aplicación **"El club de las flores <3"**.
+Este documento sistematiza la implementación real, funcional y verificable de los **diez principios de Interacción Humano-Máquina (IHM)** y accesibilidad web (referencia WCAG 2.2 nivel AA) dentro de la aplicación **"El club de las flores"**.
 
 > **Nota de rigor académico:** Ninguna evidencia gráfica ni resultado de prueba con usuarios ha sido inventado. Se detallan las rutas de componentes reales, las acciones reproducibles paso a paso, las capturas propuestas para la defensa académica y los resultados reales de las pruebas automatizadas ejecutadas en el repositorio.
 

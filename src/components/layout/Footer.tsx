@@ -106,7 +106,7 @@ export function Footer() {
 
         <div className="mt-8 border-t border-cream-border pt-6 text-center text-xs text-charcoal-muted">
           <p>
-            © 2026 El club de las flores {"<3"} · Suscripciones de arreglos
+            © 2026 El club de las flores· Suscripciones de arreglos
             florales en Lima, Perú.
           </p>
         </div>

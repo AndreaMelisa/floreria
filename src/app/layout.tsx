@@ -4,7 +4,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "El club de las flores <3 | Suscripciones de arreglos florales",
+  title: "El club de las flores | Suscripciones de arreglos florales",
   description:
     "Contratación y gestión de suscripciones de arreglos florales personalizados. Proyecto demostrativo de Interacción Humano-Máquina (IHM) y accesibilidad web.",
 };

@@ -335,7 +335,7 @@ export default function NosotrosPage() {
 
           <div className="mt-12 rounded-3xl border-2 border-rose-dusty/40 bg-gradient-to-r from-rose-pastel via-cream to-sage-light p-8 text-center sm:p-10">
             <h3 className="font-serif text-2xl font-bold text-charcoal sm:text-3xl">
-              Lleva la experiencia de El club de las flores {"<3"} a tu espacio
+              Lleva la experiencia de El club de las floresa tu espacio
             </h3>
             <p className="mx-auto mt-3 max-w-2xl text-sm text-charcoal-muted sm:text-base">
               Configura tu plan paso a paso, consulta el cálculo dinámico de
