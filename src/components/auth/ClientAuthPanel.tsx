@@ -82,10 +82,6 @@ export function ClientAuthPanel({ onAuthenticated }: ClientAuthPanelProps) {
       className="mx-auto max-w-xl rounded-3xl border-2 border-cream-border bg-cream-ivory p-6 shadow-md sm:p-8"
     >
       <div className="text-center">
-        <span className="inline-flex items-center gap-1.5 rounded-full border border-rose-dusty/40 bg-rose-pastel px-3.5 py-1 text-xs font-semibold text-rose-dark">
-          <KeyRound className="h-3.5 w-3.5" aria-hidden="true" />
-          <span>Acceso de Cliente</span>
-        </span>
         <h2
           id="auth-panel-heading"
           className="mt-3 font-serif text-2xl font-bold text-charcoal sm:text-3xl"
@@ -168,7 +164,7 @@ export function ClientAuthPanel({ onAuthenticated }: ClientAuthPanelProps) {
               required
               value={loginEmail}
               onChange={(e) => setLoginEmail(e.target.value)}
-              placeholder="valeria@flores.pe"
+              placeholder="usuario@correo.pe"
               className="mt-1.5 min-h-[44px] w-full rounded-xl border-2 border-cream-border bg-cream px-3.5 py-2 text-sm text-charcoal focus:border-rose-deep focus:bg-cream-ivory focus:outline-none"
             />
           </div>
@@ -200,27 +196,6 @@ export function ClientAuthPanel({ onAuthenticated }: ClientAuthPanelProps) {
           </button>
 
           {/* Acceso directo con cuenta de cliente pre-registrada */}
-          <div className="rounded-2xl border border-sage/30 bg-sage-light/70 p-4 text-xs text-charcoal">
-            <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-center">
-              <div>
-                <span className="font-bold text-sage-deep">
-                  Cuenta de cliente registrada:
-                </span>
-                <p className="mt-0.5 text-charcoal-muted">
-                  Correo: <code>{DEFAULT_CLIENT_ACCOUNT.email}</code> · Clave:{" "}
-                  <code>{DEFAULT_CLIENT_ACCOUNT.password}</code>
-                </p>
-              </div>
-              <button
-                type="button"
-                onClick={handleQuickClientLogin}
-                className="inline-flex min-h-[38px] shrink-0 items-center justify-center gap-1.5 rounded-xl border border-sage bg-cream-ivory px-3.5 py-1.5 text-xs font-bold text-sage-deep transition hover:bg-sage-soft"
-              >
-                <UserCheck className="h-4 w-4" aria-hidden="true" />
-                <span>Ingresar como Valeria</span>
-              </button>
-            </div>
-          </div>
         </form>
       ) : (
         <form
@@ -242,7 +217,6 @@ export function ClientAuthPanel({ onAuthenticated }: ClientAuthPanelProps) {
                 required
                 value={regName}
                 onChange={(e) => setRegName(e.target.value)}
-                placeholder="Ej.: Camila Quispe"
                 className="mt-1.5 min-h-[44px] w-full rounded-xl border-2 border-cream-border bg-cream px-3.5 py-2 text-sm text-charcoal focus:border-rose-deep focus:bg-cream-ivory focus:outline-none"
               />
             </div>
@@ -260,7 +234,7 @@ export function ClientAuthPanel({ onAuthenticated }: ClientAuthPanelProps) {
                 required
                 value={regEmail}
                 onChange={(e) => setRegEmail(e.target.value)}
-                placeholder="camila@correo.pe"
+                placeholder="usuario@correo.pe"
                 className="mt-1.5 min-h-[44px] w-full rounded-xl border-2 border-cream-border bg-cream px-3.5 py-2 text-sm text-charcoal focus:border-rose-deep focus:bg-cream-ivory focus:outline-none"
               />
             </div>

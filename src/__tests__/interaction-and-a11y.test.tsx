@@ -43,7 +43,7 @@ function WizardTestHarness({ initialStep = 1 }: { initialStep?: number }) {
   );
 }
 
-describe("Interacción y accesibilidad (IHM) - El club de las flores", () => {
+describe("Interacción y ccesibilidad (IHM) - El club de las flores", () => {
   it("1. Mapeo y Feedback: cambiar tamaño actualiza instantáneamente el precio en el resumen dinámico sin recargar", () => {
     render(<WizardTestHarness initialStep={2} />);
 

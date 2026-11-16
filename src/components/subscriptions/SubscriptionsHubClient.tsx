@@ -368,18 +368,6 @@ export function SubscriptionsHubClient() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-      {/* Barra de cuenta de cliente autenticada */}
-      <div className="mb-6 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-sage/30 bg-sage-light/80 px-4 py-3 text-xs text-charcoal">
-        <div className="flex items-center gap-2">
-          <UserCheck className="h-4 w-4 text-sage-deep" aria-hidden="true" />
-          <span>
-            Sesión de cliente activa:{" "}
-            <strong className="text-sage-deep">{currentUser.fullName}</strong> (
-            {currentUser.email})
-          </span>
-        </div>
-      </div>
-
       {/* Encabezado de la Vista 3 */}
       <div className="flex flex-col justify-between gap-6 border-b border-cream-border pb-6 lg:flex-row lg:items-end">
         <div>
