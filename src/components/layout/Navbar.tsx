@@ -81,13 +81,6 @@ export function Navbar() {
       </a>
 
       {/* Barra superior informativa comercial */}
-      <div className="border-b border-cream-border bg-rose-pastel px-4 py-1.5 text-center text-xs text-charcoal">
-        <span className="font-semibold text-rose-dark">
-          Suscripciones florales personalizadas:
-        </span>{" "}
-        Entregas programadas en Turno Mañana (9:00 a. m. - 1:00 p. m.) y Turno Tarde (3:00 p. m. - 6:00 p. m.) · Lima, Perú (PEN S/).
-      </div>
-
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3.5 sm:px-6 lg:px-8">
         <Link
           href="/"
@@ -173,7 +166,6 @@ export function Navbar() {
             href="/suscripciones"
             className="inline-flex min-h-[44px] items-center gap-2 rounded-xl bg-rose-dark px-5 py-2.5 text-sm font-semibold text-cream-ivory shadow-xs transition hover:bg-rose-deep focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-rose-dark active:scale-[0.99]"
           >
-            <Sparkles className="h-4 w-4" aria-hidden="true" />
             <span>Personalizar mi arreglo</span>
           </Link>
         </div>

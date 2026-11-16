@@ -109,7 +109,7 @@ export default function HomePage() {
     {
       question: "¿En qué horarios se realizan las entregas?",
       answer:
-        "Contamos con dos turnos fijos en la zona horaria America/Lima: Turno Mañana (de 9:00 a. m. a 1:00 p. m.) y Turno Tarde (de 3:00 p. m. a 6:00 p. m.). El turno que selecciones se aplicará a tus entregas recurrentes y podrás cambiarlo en cualquier momento.",
+        "Contamos con dos turnos fijos: Turno Mañana (de 9:00 a. m. a 1:00 p. m.) y Turno Tarde (de 3:00 p. m. a 6:00 p. m.). El turno que selecciones se aplicará a tus entregas recurrentes y podrás cambiarlo en cualquier momento.",
     },
   ];
 
@@ -124,8 +124,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12">
             <div className="lg:col-span-7">
               <div className="inline-flex items-center gap-2 rounded-full border border-rose-dusty/40 bg-cream-ivory px-3.5 py-1.5 text-xs font-semibold text-rose-dark shadow-2xs">
-                <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
-                <span>Suscripción floral personalizada · Moneda S/ (PEN)</span>
+                <span>Suscripción floral personalizada</span>
               </div>
 
               <h1
@@ -194,13 +193,13 @@ export default function HomePage() {
 
             <div className="lg:col-span-5">
               <div className="overflow-hidden rounded-3xl border-2 border-cream-border bg-cream-ivory p-3 shadow-xl">
-                <BotanicalIllustration
-                  variant="hero-bouquet"
-                  alt="Fotografía ilustrativa de un arreglo floral principal en jarrón de cerámica crema con rosas en tonos rosa empolvado, flores marfil y follaje verde salvia"
-                  className="h-auto w-full rounded-2xl"
+                <img
+                  src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                  alt="Arreglo floral"
+                  className="h-auto w-full rounded-2xl object-cover"
                 />
                 <div className="mt-3 flex items-center justify-between px-2 py-1 text-xs text-charcoal-muted">
-                  <span>Composición botánica de autor</span>
+                  <span>Belleza en cada pétalo</span>
                   <span className="font-semibold text-sage-deep">
                     Tallos frescos seleccionados
                   </span>
@@ -230,8 +229,8 @@ export default function HomePage() {
             <p className="mt-4 text-base leading-relaxed text-charcoal-muted">
               Somos una plataforma dedicada al diseño y entrega periódica de
               arreglos florales. En lugar de realizar pedidos aislados desde
-              cero cada vez, configuras tu suscripción una sola vez —eligiendo
-              si es para ti o para regalar— y recibes flores frescas en el
+              cero cada vez, configuras tu suscripción una sola vez eligiendo
+              si es para ti o para regalar y recibes flores frescas en el
               intervalo y horario que prefieras, con libertad para ajustar o
               cancelar tu plan desde tu cuenta de cliente.
             </p>
@@ -295,18 +294,18 @@ export default function HomePage() {
               return (
                 <article
                   key={plan.id}
-                  className={`flex flex-col justify-between rounded-2xl border-2 bg-cream-ivory p-6 shadow-sm transition ${
-                    plan.badge
+                  className={`flex flex-col justify-between rounded-2xl border-2 bg-cream-ivory p-6 shadow-sm transition ${plan.badge
                       ? "border-rose-deep ring-2 ring-rose-soft"
                       : "border-cream-border"
-                  }`}
+                    }`}
                 >
                   <div>
                     <div className="relative mb-5 overflow-hidden rounded-xl border border-cream-border">
-                      <BotanicalIllustration
-                        variant={plan.id}
+                      <img
+                        src={plan.image}
                         alt={plan.imageAlt}
                         className="h-48 w-full object-cover"
+                        loading="lazy"
                       />
                       {plan.badge && (
                         <span className="absolute top-3 right-3 rounded-full border border-rose-dark bg-rose-dark px-3 py-1 text-xs font-semibold text-cream-ivory shadow-xs">
@@ -437,7 +436,7 @@ export default function HomePage() {
               />
               <div>
                 <h3 className="font-serif text-base font-bold text-charcoal">
-                  Turnos de entrega en horario de Lima (America/Lima)
+                  Turnos de entrega
                 </h3>
                 <p className="mt-1 text-sm leading-relaxed text-charcoal-muted">
                   Selecciona entre el{" "}
@@ -519,7 +518,6 @@ export default function HomePage() {
               href="/suscripciones"
               className="inline-flex min-h-[48px] items-center justify-center gap-2 rounded-xl bg-rose-dark px-8 py-3.5 text-base font-semibold text-cream-ivory shadow-sm transition hover:bg-rose-deep focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-rose-dark"
             >
-              <Sparkles className="h-5 w-5" aria-hidden="true" />
               <span>Ir a Suscripciones</span>
             </Link>
             <Link

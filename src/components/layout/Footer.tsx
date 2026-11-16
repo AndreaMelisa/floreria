@@ -38,7 +38,7 @@ export function Footer() {
                   href="/"
                   className="inline-flex min-h-[36px] items-center text-charcoal-muted underline-offset-4 hover:text-rose-dark hover:underline focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-rose-deep"
                 >
-                  Inicio — Planes, beneficios y preguntas frecuentes
+                  Inicio - Planes, beneficios y preguntas frecuentes
                 </Link>
               </li>
               <li>
@@ -46,7 +46,7 @@ export function Footer() {
                   href="/nosotros"
                   className="inline-flex min-h-[36px] items-center text-charcoal-muted underline-offset-4 hover:text-rose-dark hover:underline focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-rose-deep"
                 >
-                  Nosotros — Filosofía botánica y compromiso de calidad
+                  Nosotros - Filosofía botánica y compromiso de calidad
                 </Link>
               </li>
               <li>
@@ -54,7 +54,7 @@ export function Footer() {
                   href="/suscripciones"
                   className="inline-flex min-h-[36px] items-center text-charcoal-muted underline-offset-4 hover:text-rose-dark hover:underline focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-rose-deep"
                 >
-                  Suscripciones — Contratar y gestionar mis suscripciones
+                  Suscripciones - Contratar y gestionar mis suscripciones
                 </Link>
               </li>
             </ul>

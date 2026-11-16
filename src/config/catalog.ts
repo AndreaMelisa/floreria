@@ -19,14 +19,15 @@ export const FLORAL_PLANS: FloralPlan[] = [
     defaultSize: "pequeno",
     stemsEstimate: "8 a 12 tallos seleccionados",
     idealFor: "Espacios compactos, estudios y detalles cotidianos",
+    image: "https://images.unsplash.com/photo-1622658641558-235f26dd270b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    imageAlt:
+      "Arreglo floral pequeño del Plan Brote con flores frescas en tonos suaves sobre una mesa de madera clara",
     features: [
       "8 a 12 tallos frescos de corte reciente",
       "Follaje botánico aromático de estación",
       "Sobre de nutriente floral para prolongar la frescura",
       "Guía impresa de cuidados básicos de tallos",
     ],
-    imageAlt:
-      "Arreglo floral pequeño del Plan Brote con flores frescas en tonos suaves sobre una mesa de madera clara",
   },
   {
     id: "floracion",
@@ -37,6 +38,7 @@ export const FLORAL_PLANS: FloralPlan[] = [
     defaultSize: "mediano",
     stemsEstimate: "15 a 20 tallos seleccionados",
     idealFor: "Mesas principales, salas y obsequios especiales",
+    image: "https://images.unsplash.com/photo-1523693916903-027d144a2b7d?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     badge: "Más elegido",
     features: [
       "15 a 20 tallos con flores focales y secundarias",
@@ -56,6 +58,7 @@ export const FLORAL_PLANS: FloralPlan[] = [
     defaultSize: "grande",
     stemsEstimate: "25 a 32 tallos seleccionados",
     idealFor: "Recibidores amplios, celebraciones y amantes de la botánica",
+    image: "https://images.unsplash.com/photo-1667555150959-3e881131b9e4?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     badge: "Máxima presencia",
     features: [
       "25 a 32 tallos con variedades de apertura escalonada",

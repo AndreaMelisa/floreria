@@ -60,7 +60,6 @@ export function DynamicSummaryCard({ draft }: DynamicSummaryCardProps) {
     >
       <div className="flex items-center justify-between border-b border-cream-border pb-3.5">
         <div className="flex items-center gap-2">
-          <Sparkles className="h-5 w-5 text-rose-dark" aria-hidden="true" />
           <h2 className="font-serif text-lg font-bold text-charcoal">
             Resumen en vivo
           </h2>

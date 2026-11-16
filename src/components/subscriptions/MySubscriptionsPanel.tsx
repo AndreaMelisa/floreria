@@ -354,7 +354,7 @@ export function MySubscriptionsPanel({
                     <div>
                       <div className="flex flex-wrap items-center gap-3">
                         <h3 className="font-serif text-2xl font-bold text-charcoal">
-                          {sub.code} — {getPlanLabel(sub.customization.planId)}
+                          {sub.code} - {getPlanLabel(sub.customization.planId)}
                         </h3>
                         <StatusBadge kind="subscription" status={sub.status} />
                       </div>
@@ -553,30 +553,6 @@ export function MySubscriptionsPanel({
                             <Edit3 className="h-4 w-4" aria-hidden="true" />
                             <span>
                               Modificar destinatario, dirección o turno
-                            </span>
-                          </button>
-
-                          <button
-                            type="button"
-                            onClick={() => {
-                              const res = onSimulateNextCycleRenewal(
-                                sub.nextBillingDate
-                              );
-                              setFeedbackBanner({
-                                type: "success",
-                                text:
-                                  res.summaryMessages[0] ??
-                                  "Se procesó la renovación del siguiente ciclo.",
-                              });
-                            }}
-                            className="inline-flex min-h-[44px] items-center gap-2 rounded-xl border border-charcoal/25 bg-cream px-3.5 py-2 text-xs font-semibold text-charcoal transition hover:bg-cream-warm"
-                          >
-                            <FastForward
-                              className="h-4 w-4 text-sage-deep"
-                              aria-hidden="true"
-                            />
-                            <span>
-                              Adelantar renovación del ciclo #{sub.currentCycle + 1}
                             </span>
                           </button>
                         </div>

@@ -47,7 +47,6 @@ export function StatusBadge({ kind, status }: StatusBadgeProps) {
       case "finalizada":
         return (
           <span className="inline-flex items-center gap-1.5 rounded-full border-2 border-charcoal-muted bg-cream-warm px-3 py-1 text-xs font-semibold text-charcoal">
-            <Sparkles className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
             <span>Suscripción Finalizada</span>
           </span>
         );

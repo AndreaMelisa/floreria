@@ -27,7 +27,7 @@ import {
   validateStepRecipientAndBuyer,
 } from "@/lib/validation";
 
-describe("Lógica de negocio — El club de las flores", () => {
+describe("Lógica de negocio - El club de las flores", () => {
   describe("1. Cálculo de precios y personalización", () => {
     it("calcula precio por entrega = tamaño + tipo de flores + complementos en PEN", () => {
       const breakdown = calculatePriceBreakdown({

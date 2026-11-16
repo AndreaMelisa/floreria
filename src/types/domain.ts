@@ -51,6 +51,7 @@ export interface FloralPlan {
   idealFor: string;
   features: string[];
   badge?: string;
+  image: string;
   imageAlt: string;
 }
 

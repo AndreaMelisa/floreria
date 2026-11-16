@@ -97,10 +97,11 @@ export default function NosotrosPage() {
 
             <div className="lg:col-span-5">
               <figure className="overflow-hidden rounded-3xl border-2 border-cream-border bg-cream-ivory p-3 shadow-lg">
-                <BotanicalIllustration
-                  variant="atelier-workshop"
-                  alt="Ilustración fotográfica de nuestra mesa de taller botánico con tres jarrones de cerámica mostrando los tamaños Brote, Floración y Jardín"
-                  className="h-auto w-full rounded-2xl"
+                <img
+                  src="https://florist-toolbox.com/storage/blog-images/what-is-the-3-5-8-rule-in-floristry.webp"
+                  alt="Tres arreglos florales de diferentes tamaños en jarrones de cerámica"
+                  className="h-auto w-full rounded-2xl object-cover"
+                  loading="lazy"
                 />
                 <figcaption className="mt-2.5 px-2 text-center text-xs text-charcoal-muted">
                   Composición de referencia de nuestros tres tamaños: Brote,
@@ -126,7 +127,7 @@ export default function NosotrosPage() {
               id="mision-vision-heading"
               className="mt-2 font-serif text-2xl font-bold text-charcoal sm:text-4xl"
             >
-              Misión, Visión y Valores
+              Misión, visión y valores
             </h2>
           </div>
 
@@ -140,14 +141,14 @@ export default function NosotrosPage() {
                   <Compass className="h-6 w-6" />
                 </span>
                 <h3 className="font-serif text-2xl font-bold text-charcoal">
-                  Nuestra Misión
+                  Nuestra misión
                 </h3>
               </div>
               <p className="mt-4 text-sm leading-relaxed text-charcoal-muted sm:text-base">
                 Brindar una experiencia de suscripción floral personalizada,
                 clara y accesible, permitiendo que cada persona configure
-                arreglos a su medida —para disfrutar en su propio espacio o para
-                regalar— con total transparencia en precios, frecuencias y
+                arreglos a su medida para disfrutar en su propio espacio o para
+                regalar con total transparencia en precios, frecuencias y
                 horarios de entrega.
               </p>
             </article>
@@ -161,7 +162,7 @@ export default function NosotrosPage() {
                   <Eye className="h-6 w-6" />
                 </span>
                 <h3 className="font-serif text-2xl font-bold text-charcoal">
-                  Nuestra Visión
+                  Nuestra visión
                 </h3>
               </div>
               <p className="mt-4 text-sm leading-relaxed text-charcoal-muted sm:text-base">
@@ -211,15 +212,12 @@ export default function NosotrosPage() {
           <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-12">
             <div className="lg:col-span-5">
               <figure className="overflow-hidden rounded-3xl border-2 border-cream-border bg-cream-ivory p-3 shadow-md">
-                <BotanicalIllustration
-                  variant="botanical-curation"
-                  alt="Ilustración fotográfica de curaduría floral con rosas en tonos pastel y empolvados acompañadas de ramas de eucalipto verde salvia"
-                  className="h-auto w-full rounded-2xl"
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1674986175088-2d7dda41f7f8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                  alt="Rosas en tonos rosa pastel y flores marfil acompañadas de follaje verde"
+                  className="h-auto w-full rounded-2xl object-cover"
+                  loading="lazy"
                 />
-                <figcaption className="mt-2.5 px-2 text-center text-xs text-charcoal-muted">
-                  Armonía cromática entre tonos rosa pastel, marfil y verde
-                  salvia.
-                </figcaption>
               </figure>
             </div>
 
@@ -236,8 +234,8 @@ export default function NosotrosPage() {
 
               <p className="mt-4 text-base leading-relaxed text-charcoal-muted">
                 Nuestra filosofía concibe el diseño floral como un lenguaje
-                sensorial. Combinamos tallos de apertura gradual —para que el
-                arreglo evolucione día tras día— con paletas cromáticas
+                sensorial. Combinamos tallos de apertura gradual para que el
+                arreglo evolucione día tras día con paletas cromáticas
                 cuidadosamente definidas: desde la serenidad de los blancos y
                 verdes hasta la calidez de los tonos pastel o la energía de los
                 colores intensos.
@@ -270,69 +268,6 @@ export default function NosotrosPage() {
         className="bg-cream-ivory py-16"
       >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2
-              id="galeria-cta-heading"
-              className="font-serif text-2xl font-bold text-charcoal sm:text-4xl"
-            >
-              Nuestras colecciones botánicas
-            </h2>
-            <p className="mt-3 text-base text-charcoal-muted">
-              Explora visualmente las tres escalas de composición que puedes
-              personalizar en nuestra sección de suscripciones.
-            </p>
-          </div>
-
-          <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-3">
-            <figure className="rounded-2xl border border-cream-border bg-cream p-3">
-              <BotanicalIllustration
-                variant="brote"
-                alt="Colección Brote: arreglo floral pequeño de 8 a 12 tallos para rincones acogedores"
-                className="h-44 w-full rounded-xl object-cover"
-              />
-              <figcaption className="mt-3 px-1">
-                <strong className="block font-serif text-base text-charcoal">
-                  Escala Brote (Pequeño)
-                </strong>
-                <span className="text-xs text-charcoal-muted">
-                  Delicadeza botánica para escritorios y mesas auxiliares.
-                </span>
-              </figcaption>
-            </figure>
-
-            <figure className="rounded-2xl border border-cream-border bg-cream p-3">
-              <BotanicalIllustration
-                variant="floracion"
-                alt="Colección Floración: arreglo floral mediano de 15 a 20 tallos para centro de mesa"
-                className="h-44 w-full rounded-xl object-cover"
-              />
-              <figcaption className="mt-3 px-1">
-                <strong className="block font-serif text-base text-charcoal">
-                  Escala Floración (Mediano)
-                </strong>
-                <span className="text-xs text-charcoal-muted">
-                  Equilibrio de volumen y color para salas y comedores.
-                </span>
-              </figcaption>
-            </figure>
-
-            <figure className="rounded-2xl border border-cream-border bg-cream p-3">
-              <BotanicalIllustration
-                variant="jardin"
-                alt="Colección Jardín: arreglo floral grande de 25 a 32 tallos de alto impacto visual"
-                className="h-44 w-full rounded-xl object-cover"
-              />
-              <figcaption className="mt-3 px-1">
-                <strong className="block font-serif text-base text-charcoal">
-                  Escala Jardín (Grande)
-                </strong>
-                <span className="text-xs text-charcoal-muted">
-                  Abundancia floral y estructura botánica protagonista.
-                </span>
-              </figcaption>
-            </figure>
-          </div>
-
           <div className="mt-12 rounded-3xl border-2 border-rose-dusty/40 bg-gradient-to-r from-rose-pastel via-cream to-sage-light p-8 text-center sm:p-10">
             <h3 className="font-serif text-2xl font-bold text-charcoal sm:text-3xl">
               Lleva la experiencia de El club de las floresa tu espacio

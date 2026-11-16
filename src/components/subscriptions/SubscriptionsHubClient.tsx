@@ -378,21 +378,12 @@ export function SubscriptionsHubClient() {
             {currentUser.email})
           </span>
         </div>
-        <button
-          type="button"
-          onClick={handleLogout}
-          className="inline-flex min-h-[34px] items-center gap-1.5 rounded-xl border border-cream-border bg-cream-ivory px-3 py-1 font-semibold text-rose-dark transition hover:bg-rose-pastel"
-        >
-          <LogOut className="h-3.5 w-3.5" aria-hidden="true" />
-          <span>Cambiar de cuenta / Cerrar sesión</span>
-        </button>
       </div>
 
       {/* Encabezado de la Vista 3 */}
       <div className="flex flex-col justify-between gap-6 border-b border-cream-border pb-6 lg:flex-row lg:items-end">
         <div>
           <span className="inline-flex items-center gap-1.5 rounded-full border border-rose-dusty/40 bg-rose-pastel px-3 py-1 text-xs font-semibold text-rose-dark">
-            <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
             <span>Mi cuenta de suscripciones</span>
           </span>
           <h1 className="mt-3 font-serif text-3xl font-bold text-charcoal sm:text-4xl">
