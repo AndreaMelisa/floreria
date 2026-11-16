@@ -396,7 +396,7 @@ export function SubscriptionsHubClient() {
             <span>Mi cuenta de suscripciones</span>
           </span>
           <h1 className="mt-3 font-serif text-3xl font-bold text-charcoal sm:text-4xl">
-            Suscripciones de El club de las flores {"<3"}
+            Suscripciones de El club de las flores
           </h1>
           <p className="mt-2 max-w-2xl text-sm text-charcoal-muted sm:text-base">
             Personaliza y contrata un arreglo floral recurrente para ti o para

@@ -101,7 +101,7 @@ export function Navbar() {
           </span>
           <div>
             <span className="block font-serif text-lg font-bold tracking-tight text-charcoal sm:text-xl">
-              El club de las flores {"<3"}
+              El club de las flores
             </span>
             <span className="block text-xs text-charcoal-muted">
               Suscripciones botánicas en Lima

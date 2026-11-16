@@ -132,7 +132,7 @@ export default function HomePage() {
                 id="hero-heading"
                 className="mt-5 font-serif text-3xl font-bold leading-tight text-charcoal sm:text-5xl"
               >
-                El club de las flores {"<3"}: naturaleza fresca que florece a tu
+                El club de las flores: naturaleza fresca que florece a tu
                 propio ritmo
               </h1>
 

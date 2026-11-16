@@ -17,7 +17,7 @@ export function Footer() {
                 <Flower2 className="h-5 w-5" />
               </span>
               <span className="font-serif text-lg font-bold text-charcoal">
-                El club de las flores {"<3"}
+                El club de las flores
               </span>
             </div>
             <p className="mt-3 text-sm leading-relaxed text-charcoal-muted">

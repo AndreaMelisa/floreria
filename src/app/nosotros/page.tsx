@@ -69,12 +69,12 @@ export default function NosotrosPage() {
                 id="nosotros-heading"
                 className="mt-4 font-serif text-3xl font-bold leading-tight text-charcoal sm:text-5xl"
               >
-                El origen de El club de las flores {"<3"}
+                El origen de El club de las flores
               </h1>
 
               <div className="mt-5 space-y-4 text-base leading-relaxed text-charcoal-muted">
                 <p>
-                  <strong>El club de las flores {"<3"}</strong> nació como una
+                  <strong>El club de las flores</strong> nació como una
                   propuesta contemporánea de floristería por suscripción, creada
                   para acercar la belleza botánica a la vida cotidiana sin la
                   fricción de las compras esporádicas tradicionales.
